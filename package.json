@@ -16,14 +16,13 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
-  "homepage": "https://andriikost.github.io/",
+  "homepage": "https://andriikost.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
