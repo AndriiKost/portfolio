@@ -1,0 +1,50 @@
+.filter-bar {
+    padding: 1em 0 1em 1em;
+    border-bottom: 1px solid rgb(223,223,223);
+}
+.filter-bar h2 {
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: .15em;
+    line-height: 1.1rem;
+    margin: 0;
+    height: auto;
+    vertical-align: middle;
+    padding: .5em;
+}
+.filter-bar ul {
+    list-style: none;
+    float: left;
+    padding: 1.2em;
+}
+.filter-bar ul li {
+    display: inline-block;
+    padding: 0 1.2em;
+}
+.filter-by-stack {
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.filter-by-stack:hover {
+    color: #8b0000;
+}
+.filter-by-stack:hover::after {
+    width: 100%;
+}
+.filter-by-stack::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #8b0000;
+    transition: width .3s;
+}
+.filter-by-title {
+    font-weight: 600;
+}
+.active {
+    color: #8b0000;
+    border: 2px solid #8b0000;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px;
+}

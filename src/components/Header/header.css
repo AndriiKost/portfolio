@@ -1,0 +1,35 @@
+.header {
+    background-color: rgb(245,248,250);
+    border-bottom: 1px solid rgb(223,223,223);
+    display: block;
+    padding: 2em;
+    text-align: left;
+}
+.header-description {
+    color: #aaa;
+}
+.header-description a {
+    color: #8b0000;
+}
+.header-description a:hover {
+    color: #000;
+}
+.header-container {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-description h4 {
+    font-family: avenir,sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    letter-spacing: .02em;
+    line-height: 1.3em;
+}
+.header h1 { 
+    font-family: avenir,sans-serif;
+    color: #3a4145;
+    padding-bottom: .5em;
+    font-size: 3em;
+    letter-spacing: .01rem;
+}
