@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Landing = () => (
     <div>
         <div className="header">
-            <img className="portrait-picture" src="https://media.licdn.com/dms/image/C5603AQEFCY2wsUCpJw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=hgYQUDI5vZWApjP46fIwbYzfcWY2ZhUVYx3fqyzagss" />
+            <img className="portrait-picture" alt="Andrii Kost" src="https://media.licdn.com/dms/image/C5603AQEFCY2wsUCpJw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=hgYQUDI5vZWApjP46fIwbYzfcWY2ZhUVYx3fqyzagss" />
             <h1>Andrii Kost</h1>
             <div className="header-description">
                 <h4>Full Stack Developer. Founder of <a href="">Delian Digital</a>.</h4>
@@ -21,19 +21,19 @@ const Landing = () => (
                 <h2>Contact</h2>
                 <ul>
                     <li>
-                        <a href="https://twitter.com/andriikost" target="_blank">
+                        <a href="https://twitter.com/andriikost" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'twitter-square']} /><span>Twitter</span></a></li>
                     <li>
-                        <a href="https://github.com/AndriiKost" target="_blank">
+                        <a href="https://github.com/AndriiKost" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'github-square']} /><span>Github</span></a></li>
                     <li>
-                        <a href="https://www.linkedin.com/in/andriikost/" target="_blank">
+                        <a href="https://www.linkedin.com/in/andriikost/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'linkedin-in']} /><span>Linkedin</span></a></li>
                     <li>
-                        <a href="https://www.facebook.com/andriikost94" target="_blank">
+                        <a href="https://www.facebook.com/andriikost94" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'facebook-square']} /><span>Facebook</span></a></li>
                     <li>
-                        <a href="https://www.instagram.com/andriikost/" target="_blank">
+                        <a href="https://www.instagram.com/andriikost/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'instagram']} /><span>Instagram</span></a></li>
                     <li>
                         <a href="mailto:andriikost@yahoo.com">

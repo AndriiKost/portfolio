@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import Button from '@material-ui/core/Button';
 
 import './navigation.css';
 
@@ -25,7 +24,7 @@ const navigation = () => (
             <ul>
                 <li><Link className="nav-button" to={'/projects'}>PROJECTS</Link></li>
                 {/* <li><Link className="nav-button"  to={'/'}>CONTACT</Link></li> */}
-                <li><a className="nav-button" href="https://drive.google.com/file/d/1yfooVKu7sldRJEvYmhorf6RaSXoowVX0/view?usp=sharing" target="_blank">RESUME</a></li>
+                <li><a className="nav-button" href="https://drive.google.com/file/d/1yfooVKu7sldRJEvYmhorf6RaSXoowVX0/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a></li>
             </ul>
         </div>
     </nav>

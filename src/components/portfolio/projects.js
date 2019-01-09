@@ -69,7 +69,7 @@ class Projects extends Component {
                 <div>
                     <Link to={`/projects/${el.id}`}>
                         <div className="projectsMainPicture css-arrow">
-                            <img className="project-thumbnail" src={el.image} />
+                            <img className="project-thumbnail" alt="project thumbnail" src={el.image} />
                         </div>
                     </Link>
                 </div>
@@ -77,11 +77,11 @@ class Projects extends Component {
                     <Link to={`/projects/${el.id}`}>
                         <h6 className="project_title">{el.name}</h6>
                     </Link>
-                    <a className="website-url" href={el.link} target='blank'>{el.link}</a>
+                    <a className="website-url" href={el.link} target='blank' rel="noopener noreferrer">{el.link}</a>
                     <ul className="technologiesUsed">
                         {el.technologiesUsed.map(tech => (
                             <li>
-                                <img src={tech.icon} />
+                                <img src={tech.icon} alt={tech.text} />
                                 <p>{tech.text}</p>
                             </li>
                         ))}

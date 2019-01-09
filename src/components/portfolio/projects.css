@@ -42,7 +42,7 @@ a {
     padding: 2em 1.5em 0 1.5em;
 }
 .technologiesUsed li {
-    padding-left: 1em;
+    padding: .2em;
 }
 .technologiesUsed img {
     width: auto;
@@ -92,14 +92,11 @@ a {
 }
 .project_container .project_title {
     text-transform: uppercase;
+    cursor: pointer;
   }
 .project_container {
       padding-top: 1em;
   }
-.project_title {
-    cursor: pointer;
-    border: 2px solid #fff;
-}
 .project_title:hover {
     color: #8b0000;
 }

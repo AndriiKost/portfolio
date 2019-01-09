@@ -14,7 +14,7 @@ class SingleProject extends React.Component {
     componentWillMount() {
         const projectID = this.props.match.params.id;
 
-        const findProject = ProjectsAPI.projects.find((el) => el.id === parseInt(projectID))
+        const findProject = ProjectsAPI.projects.find((el) => el.id === parseInt(projectID, 10))
 
         this.setState({currentProject: findProject})
     }
@@ -23,17 +23,18 @@ class SingleProject extends React.Component {
     return(
     <div>
         <Header title={this.state.currentProject.name}
-                link={this.state.currentProject.link}/>
+                link={this.state.currentProject.link} 
+                freeHosting={this.state.currentProject.freeHosting} />
             <div className='project_container'>
             <Link to={`/projects`}>
                 <div className='back_button'>BACK</div>
             </Link>
-            <a href={this.state.currentProject.link} target='_blank' >
+            <a href={this.state.currentProject.link} target='_blank' rel="noopener noreferrer">
                 <div className='visit_button'>VISIT WEBSITE</div>
             </a>
             <div className='single_project'>
                 <div>
-                    <img src={this.state.currentProject.image} width='100%'/>
+                    <img src={this.state.currentProject.image} width='100%' alt="project head"/>
                 </div>
                 <div>
                     <p className='single_project_description'>
@@ -45,7 +46,7 @@ class SingleProject extends React.Component {
                     <ul className="technologiesUsed">
                         {this.state.currentProject.technologiesUsed.map(tech => (
                             <li>
-                                <img src={tech.icon} />
+                                <img src={tech.icon} alt={tech.text} />
                                 <p>{tech.text}</p>
                             </li>
                         ))}

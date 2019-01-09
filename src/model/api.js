@@ -16,8 +16,9 @@ const ProjectsAPI = {
         id: 11, 
         link: "https://taggingthemascot.herokuapp.com/", 
         name: "Tagging The Mascot", 
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/tagging-the-mascot.png', 
-        description: 'Tagging the Mascot was a augmented reality geotagging event. There were 85 real world objects all around the Madison area, and you as a participant team needed to be within 40 feet to each of them in order to check in and cross over an object. Who ever tag all 85 objects wins.', 
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/tagging-the-mascot.png',
+        freeHosting: true,
+        description: 'Tagging the Mascot was an augmented reality geotagging event. There were 85 real world objects all around the Madison area, and you as a participant team needed to be within 40 feet to each of them in order to check in and cross over an object. Who ever tag all 85 objects wins.', 
         role: 'My role was to build an application what will allow participants to use their phones as a interactive map with all markers, compass, guideline, check real time leaderboards, checklist, account management, state management and security.',
         type: 'Full Stack',
         technologiesUsed: [
@@ -40,6 +41,10 @@ const ProjectsAPI = {
           { 
             text: 'AWS',
             icon: logos.aws
+          },
+          {
+            text: 'Heroku',
+            icon: logos.heroku
           }
         ]
       },
@@ -47,6 +52,7 @@ const ProjectsAPI = {
         id: 12, 
         link: "https://simple-mean-auth.herokuapp.com/", 
         name: "Simple MEAN Auth", 
+        freeHosting: true,
         image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/simple-mean-auth.png', 
         description: 'MEAN (MongoDB, Express, Node.js, Angular) stack Authentication and Authorization app, more like a boilerplate. Full featured authentication using JSON Web Tokens. Angular to generate all components. Node.js and Express on the backend with Mongoose library and MongoDB.', 
         role: 'Create an application for faster development speed in the future projects, and for fun of course. ',
