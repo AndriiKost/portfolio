@@ -116,6 +116,9 @@ a {
     transition: width .3s;
     margin: auto;
 }
+.project-thumbnail {
+    max-height: 350px;
+}
 
 @media only screen and (max-width: 900px) {
     .projects {

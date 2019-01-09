@@ -13,11 +13,15 @@ const Header = (props) => {
             //     break;
         }
     }
+
+    const projectLink = props.link ? props.link : null;
+
     return (
         <div className="header">
             <div className="header-container">
                 <h1>{props.title}</h1>
                 <div className="header-description">
+                <h4 className="header-project-link"><a href={projectLink} target="_blank" >{projectLink}</a></h4>
                     {defineDescription(props.title)}
                 </div>
             </div>

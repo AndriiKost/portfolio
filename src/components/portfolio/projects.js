@@ -53,7 +53,6 @@ class Projects extends Component {
 
 
     componentDidMount() {
-        console.log('Component Did Mount ',this.state.filter);
         if (!this.state.filter) {
             const currProjects = ProjectsAPI.projects;
             this.setState({
@@ -70,7 +69,7 @@ class Projects extends Component {
                 <div>
                     <Link to={`/projects/${el.id}`}>
                         <div className="projectsMainPicture css-arrow">
-                            <img src={el.image} />
+                            <img className="project-thumbnail" src={el.image} />
                         </div>
                     </Link>
                 </div>

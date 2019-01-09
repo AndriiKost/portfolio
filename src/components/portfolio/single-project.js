@@ -3,34 +3,47 @@ import { Link } from 'react-router-dom';
 import ProjectsAPI from '../../model/api';
 import Header from '../Header/header';
 
-const SingleProject = (props) => {
+class SingleProject extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentProject: ''
+        }
+    }
 
-    const projectID = props.match.params.id;
-    const selectedProject = ProjectsAPI.projects[projectID-1]
-    
+    componentWillMount() {
+        const projectID = this.props.match.params.id;
+
+        const findProject = ProjectsAPI.projects.find((el) => el.id === parseInt(projectID))
+
+        this.setState({currentProject: findProject})
+    }
+
+    render() {
     return(
     <div>
-        <Header title={selectedProject.name}/>
+        <Header title={this.state.currentProject.name}
+                link={this.state.currentProject.link}/>
             <div className='project_container'>
             <Link to={`/projects`}>
                 <div className='back_button'>BACK</div>
             </Link>
-            <a href={selectedProject.link} target='_blank' >
+            <a href={this.state.currentProject.link} target='_blank' >
                 <div className='visit_button'>VISIT WEBSITE</div>
             </a>
             <div className='single_project'>
                 <div>
-                    <img src={selectedProject.image} width='100%'/>
+                    <img src={this.state.currentProject.image} width='100%'/>
                 </div>
                 <div>
                     <p className='single_project_description'>
-                        {selectedProject.description}
+                        {this.state.currentProject.description}
                     </p>
                     <p className='single_project_description'>
-                        {selectedProject.role}</p>
+                        {this.state.currentProject.role}</p>
                     <h4>Technologies Used:</h4>
                     <ul className="technologiesUsed">
-                        {selectedProject.technologiesUsed.map(tech => (
+                        {this.state.currentProject.technologiesUsed.map(tech => (
                             <li>
                                 <img src={tech.icon} />
                                 <p>{tech.text}</p>
@@ -43,6 +56,7 @@ const SingleProject = (props) => {
     </div>
 
     )
+}
 };
 
 export default SingleProject;

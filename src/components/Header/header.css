@@ -19,6 +19,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+.header-project-link {
+    color: #aaa;
+}
 .header-description h4 {
     font-family: avenir,sans-serif;
     font-weight: 400;
