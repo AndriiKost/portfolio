@@ -15,7 +15,8 @@ const Landing = () => (
         <div className="content">
             <div className="about-section">
                 <h2>About Me</h2>
-                <p>I love programming, learning new (and old) technologies, traveling and snowboarding. I build websites and applications out of my company Delian Digital. </p>
+                <p>I love programming, learning new (and old) technologies, traveling and snowboarding. I build websites and applications out of my company Delian Digital. I spend my free time to learn new skills, technologies or to improve existing ones, play active sport games or simply go to the gym. </p>
+                <p></p>
             </div>
             <div className="contact-section">
                 <h2>Contact</h2>

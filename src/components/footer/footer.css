@@ -1,0 +1,26 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #aaa;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.footer svg {
+    font-size: 1.7em;
+    color: #aaa;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.footer svg:hover {
+    color: red;
+}
+.footer ul {
+    float: right;
+}
+.footer .left h4 {
+    float: left;
+    padding-left: 10px;
+}

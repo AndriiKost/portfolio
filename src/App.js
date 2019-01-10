@@ -8,6 +8,7 @@ import Landing from './components/landing/landing';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitterSquare, faGithubSquare, faLinkedinIn, faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import Footer from './components/footer/footer';
 
 library.add(faTwitterSquare, faGithubSquare, faLinkedinIn, faFacebookSquare, faInstagram, faEnvelope)
 
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path='/projects' component={Projects}/>
             <Route exact path='/' component={Landing}/>
           </Switch>
+      <Footer />
       </div>
     );
   }

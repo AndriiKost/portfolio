@@ -8,7 +8,12 @@ const logos = {
   firebase: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Firebase-logo.png',
   mongoDB: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/mongo-db-logo.png',
   express: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/express-logo.png',
-  heroku: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/heroku-logo.png'
+  heroku: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/heroku-logo.png',
+  html: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png',
+  css: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png',
+  js: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png',
+  php: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png',
+  wordpress: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png'
 };
 const ProjectsAPI = {
     projects: [
@@ -91,23 +96,23 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress 
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html 
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js
           }, 
           { 
             text: 'PHP',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png' 
+            icon: logos.php 
           }
         ]
       },
@@ -122,23 +127,23 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js 
           }, 
           { 
             text: 'PHP',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png' 
+            icon: logos.php
           }
         ]
       },
@@ -153,23 +158,23 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js
           }, 
           { 
             text: 'PHP',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png' 
+            icon: logos.php
           }
         ]
       },
@@ -184,19 +189,19 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js
           }
         ]
       },
@@ -211,23 +216,23 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js
           }, 
           { 
             text: 'PHP',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png' 
+            icon: logos.php
           }
         ]
       },
@@ -242,23 +247,23 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js
           }, 
           { 
             text: 'PHP',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png' 
+            icon: logos.php
           }
         ]
       },
@@ -271,23 +276,50 @@ const ProjectsAPI = {
         technologiesUsed: [
           { 
             text: 'WordPress',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/wordpress-logo-notext-rgb.png' 
+            icon: logos.wordpress
           }, 
           { 
             text: 'HTML5',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/HTML_Logo.png' 
+            icon: logos.html
           }, 
           { 
             text: 'CSS3',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png' 
+            icon: logos.css
           }, 
           { 
             text: 'JavaScript',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png' 
+            icon: logos.js
           }, 
           { 
             text: 'PHP',
-            icon:'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png' 
+            icon: logos.php
+          }
+        ]
+      },
+      { 
+        id: 8, 
+        link: "http://www.klaritos.com/", 
+        name: "Klaritos Inc", 
+        description: 'KLĀRITOS is a novel managed-care company specializing in precision medicine.',
+        role: 'Build minimalistic info based website for med-tech startup.',
+        type: 'Front End',
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/klaritos-head.png', 
+        technologiesUsed: [
+          { 
+            text: 'HTML5',
+            icon: logos.html
+          }, 
+          { 
+            text: 'CSS3',
+            icon: logos.css
+          }, 
+          { 
+            text: 'JavaScript',
+            icon: logos.js
+          }, 
+          { 
+            text: 'PHP',
+            icon: logos.php
           }
         ]
       },

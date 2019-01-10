@@ -55,6 +55,7 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-bottom: 30px;
 }
 .about-section {
     text-align: left;
