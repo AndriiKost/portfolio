@@ -24,3 +24,12 @@
     float: left;
     padding-left: 10px;
 }
+/* MEDIA QUERIES */
+@media only screen and (max-width: 630px) {
+    .footer { grid-template-columns: 1fr 1fr; }
+    .footer svg { font-size: 1.2em; }
+}
+@media only screen and (max-width: 350px) {
+    .footer svg { font-size: 1em; }
+    .footer h4 { padding-left: 5px; font-size: .9em; }
+}

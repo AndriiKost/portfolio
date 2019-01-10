@@ -86,6 +86,29 @@ const ProjectsAPI = {
         ]
       },
       { 
+        id: 13, 
+        link: "https://github.com/AndriiKost/geotagAPI", 
+        name: "Geotagging API", 
+        description: 'RESTful API using Node.js',
+        role: '',
+        type: 'Back End',
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/geotagAPI.png', 
+        technologiesUsed: [
+          { 
+            text: 'JavaScript',
+            icon: logos.js
+          }, 
+          { 
+            text: 'Node.js',
+            icon: logos.node
+          },
+          {
+            text: 'Express',
+            icon: logos.express
+          }
+        ]
+      },
+      { 
         id: 1, 
         link: "http://unitedstatestaxservices.us/", 
         name: "United States Tax Services", 
@@ -323,6 +346,7 @@ const ProjectsAPI = {
           }
         ]
       },
+
     ],
   }
   

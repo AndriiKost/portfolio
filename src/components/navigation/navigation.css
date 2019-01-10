@@ -42,3 +42,9 @@ nav {
     background: rgb(245,248,250);
     color: #8b0000;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 450px) {
+    nav { font-size: .8em; }
+    .nav-button, .right .nav-button { padding: .5em; }
+}

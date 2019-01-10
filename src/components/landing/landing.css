@@ -80,3 +80,16 @@
     padding-left: 10px;
     vertical-align: middle;
 }
+
+/* MEDIA QUESRIES */
+
+@media only screen and (max-width: 630px) {
+    .content { grid-template-columns: 1fr; padding: 1.5em; }
+    .contact-section, .about-section { padding: 1em 0 0 1em; }
+    .contact-section ul { display: grid; grid-template-columns: 1fr 1fr; }
+    .contact-section ul li { padding: 5px; }
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-section ul { grid-template-columns: 1fr; }
+}
