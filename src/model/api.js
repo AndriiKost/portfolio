@@ -13,7 +13,7 @@ const logos = {
   css: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png',
   js: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png',
   php: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png',
-  wordpress: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png'
+  auth0: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/auth0-logo-png-transparent.png'
 };
 const ProjectsAPI = {
     projects: [
@@ -105,6 +105,33 @@ const ProjectsAPI = {
           {
             text: 'Express',
             icon: logos.express
+          }
+        ]
+      },
+      { 
+        id: 14, 
+        link: "https://github.com/AndriiKost/node-passport-auth/", 
+        name: "Node + Passport Auth", 
+        description: 'Authentication backend using Node.js, MongoDB, Express and Passport',
+        role: '',
+        type: 'Back End',
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/node-auth-passport.png', 
+        technologiesUsed: [
+          { 
+            text: 'JavaScript',
+            icon: logos.js
+          }, 
+          { 
+            text: 'Node.js',
+            icon: logos.node
+          },
+          {
+            text: 'Express',
+            icon: logos.express
+          },
+          {
+            text: 'MongoDB',
+            icon: logos.mongoDB
           }
         ]
       },
