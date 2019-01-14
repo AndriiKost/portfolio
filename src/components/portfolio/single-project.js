@@ -20,6 +20,15 @@ class SingleProject extends React.Component {
     }
 
     render() {
+
+    const defineText = () => {
+        if (this.state.currentProject.link.slice(0, 19) === 'https://github.com/') {
+            return 'SEE THE CODE'
+        } else {
+            return 'VISIT WEBSITE'
+        }
+    }
+
     return(
     <div>
         <Header title={this.state.currentProject.name}
@@ -30,7 +39,9 @@ class SingleProject extends React.Component {
                 <div className='back_button'>BACK</div>
             </Link>
             <a href={this.state.currentProject.link} target='_blank' rel="noopener noreferrer">
-                <div className='visit_button'>VISIT WEBSITE</div>
+                <div className='visit_button'>
+                {defineText()}
+                </div>
             </a>
             <div className='single_project'>
                 <div>
