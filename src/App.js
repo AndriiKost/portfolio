@@ -9,6 +9,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitterSquare, faGithubSquare, faLinkedinIn, faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Footer from './components/footer/footer';
+import Contact from './components/contact/contact';
 
 library.add(faTwitterSquare, faGithubSquare, faLinkedinIn, faFacebookSquare, faInstagram, faEnvelope)
 
@@ -20,7 +21,8 @@ class App extends Component {
           <Switch>
             <Route exact path='/projects/:id' component={SingleProject}/>
             <Route exact path='/projects' component={Projects}/>
-            <Route exact path='/' component={Landing}/>
+            {/* <Route exact path='/contact' component={Contact}/> */}
+            <Route component={Landing}/>
           </Switch>
       <Footer />
       </div>

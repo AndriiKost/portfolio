@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Landing = () => (
     <div>
         <div className="header">
-            <img className="portrait-picture" alt="Andrii Kost" src="https://media.licdn.com/dms/image/C5603AQEFCY2wsUCpJw/profile-displayphoto-shrink_200_200/0?e=1552521600&v=beta&t=hgYQUDI5vZWApjP46fIwbYzfcWY2ZhUVYx3fqyzagss" />
+            <img className="portrait-picture" alt="Andrii Kost" src="https://media.licdn.com/dms/image/C5603AQG_GxHAtaBQUg/profile-displayphoto-shrink_200_200/0?e=1553731200&v=beta&t=7H6vzjUQ1YT6lRR0kmMm7eK8YgxAixYO_yeqpWRmRoI" />
             <h1>Andrii Kost</h1>
             <div className="header-description">
                 <h4>Full Stack Developer. Founder of <a href="">Delian Digital</a>.</h4>

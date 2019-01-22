@@ -23,7 +23,7 @@ const navigation = () => (
         <div className="right">
             <ul>
                 <li><Link className="nav-button" to={'/projects'}>PROJECTS</Link></li>
-                {/* <li><Link className="nav-button"  to={'/'}>CONTACT</Link></li> */}
+                {/* <li><Link className="nav-button" to={'/contact'}>CONTACT</Link></li> */}
                 <li><a className="nav-button" href="https://drive.google.com/file/d/1yfooVKu7sldRJEvYmhorf6RaSXoowVX0/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a></li>
             </ul>
         </div>
