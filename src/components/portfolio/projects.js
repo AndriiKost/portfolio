@@ -80,7 +80,7 @@ class Projects extends Component {
                     <a className="website-url" href={el.link} target='blank' rel="noopener noreferrer">{el.link}</a>
                     <ul className="technologiesUsed">
                         {el.technologiesUsed.map(tech => (
-                            <li>
+                            <li key={el.name + '-' + tech.text}>
                                 <img src={tech.icon} alt={tech.text} />
                                 <p>{tech.text}</p>
                             </li>

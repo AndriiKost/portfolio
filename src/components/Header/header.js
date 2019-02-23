@@ -6,7 +6,7 @@ const Header = (props) => {
     const defineDescription = (title) => {
         switch (title) {
             case 'Projects':
-                return (<h4>Need help with a web application or website? Reach out to me at <a href="mailto:a.kost@deliandigital.com">a.kost@deliandigital.com</a>.</h4>);
+                return (<h4>Need help with a web application or website? Reach out to me at <a href="mailto:a.kost@deliandigital.com">a.kost@deliandigital.com</a>, or <a href="https://deliandigital.herokuapp.com/estimate"  target="_blank" rel="noopener noreferrer">get estimate now</a>.</h4>);
             // case 'United States Tax Services':
             //     return (<h4><a href="http://unitedstatestaxservices.us">http://unitedstatestaxservices.us</a></h4>);
             //     break;

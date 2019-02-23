@@ -8,7 +8,7 @@ const Landing = () => (
             <img className="portrait-picture" alt="Andrii Kost" src="https://media.licdn.com/dms/image/C5603AQG_GxHAtaBQUg/profile-displayphoto-shrink_200_200/0?e=1553731200&v=beta&t=7H6vzjUQ1YT6lRR0kmMm7eK8YgxAixYO_yeqpWRmRoI" />
             <h1>Andrii Kost</h1>
             <div className="header-description">
-                <h4>Full Stack Developer. Founder of <a href="">Delian Digital</a>.</h4>
+                <h4>Full Stack Developer and Founder of <a href="http://deliandigital.com" rel="noopener noreferrer" target="_blank">Delian Digital</a>.</h4>
                 <h5>Inspired by building technologies.</h5>
             </div>
         </div>

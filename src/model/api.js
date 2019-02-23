@@ -17,33 +17,35 @@ const logos = {
 };
 const ProjectsAPI = {
     projects: [
-      { 
-        id: 11, 
-        link: "https://taggingthemascot.herokuapp.com/", 
-        name: "Tagging The Mascot", 
+      {
+        id: 11,
+        link: "https://taggingthemascot.herokuapp.com/",
+        name: "Tagging The Mascot",
         image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/tagging-the-mascot.png',
         freeHosting: true,
-        description: 'Tagging the Mascot was an augmented reality geotagging event. There were 85 real world objects all around the Madison area, and you as a participant team needed to be within 40 feet to each of them in order to check in and cross over an object. Who ever tag all 85 objects wins.', 
-        role: 'My role was to build an application what will allow participants to use their phones as a interactive map with all markers, compass, guideline, check real time leaderboards, checklist, account management, state management and security.',
+        description: 'Tagging the Mascot was an augmented reality geotagging event. There were 85 real-world objects around the Madison area, and user as a participant team needed to be within 40 feet to each of them in order to check in and cross over an object. Whoever tag all 85 objects wins.',
+        role: 'My role was to build an application what will allow participants to use their phones as an interactive map using google maps as a main canvas, guideline where to go, real-time team leaderboards, real time automated and interactive checklist, basic account management and security.',
+        result: 'This product has been delivered successfully to a client Spoofing Willy Street within a deadline we set before.',
+        resource: 'https://spoofingwilly.com/2018/05/09/area-man-wakes-up-after-a-weekend-binge-to-something-frightening/',
         type: 'Full Stack',
         technologiesUsed: [
-          { 
+          {
             text: 'React.js',
-            icon: logos.react 
-          }, 
+            icon: logos.react
+          },
           {
             text: 'Redux',
             icon: logos.redux
           },
           {
             text: 'Firebase',
-            icon: logos.firebase 
-          }, 
-          { 
+            icon: logos.firebase
+          },
+          {
             text: 'Node.js',
             icon: logos.node
-          }, 
-          { 
+          },
+          {
             text: 'AWS',
             icon: logos.aws
           },
@@ -53,36 +55,42 @@ const ProjectsAPI = {
           }
         ]
       },
-      { 
-        id: 12, 
-        link: "https://simple-mean-auth.herokuapp.com/", 
-        name: "Simple MEAN Auth", 
-        freeHosting: true,
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/simple-mean-auth.png', 
-        description: 'MEAN (MongoDB, Express, Node.js, Angular) stack Authentication and Authorization app, more like a boilerplate. Full featured authentication using JSON Web Tokens. Angular to generate all components. Node.js and Express on the backend with Mongoose library and MongoDB.', 
-        role: 'Create an application for faster development speed in the future projects, and for fun of course. ',
+      {
+        id: 12,
+        link: "http://deliandigital.com",
+        name: "Delian Digital",
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/deliandigital-head.jpg',
+        freeHosting: false,
+        description: 'Delian Digital is the digital product design & development company and your guide on the digital transformation journey.',
+        role: 'My role was to build a modern Single Page Application using a modern web framework.',
+        result: 'The SPA generated many potential customers, who were impressed with some of the features and wanted to have similar in their projects.',
+        resource: 'https://deliandigital.herokuapp.com/journey',
         type: 'Full Stack',
         technologiesUsed: [
-          { 
+          {
             text: 'Angular 6',
-            icon: logos.angular 
-          }, 
-          { 
+            icon: logos.angular
+          },
+          {
             text: 'MongoDB',
-            icon: logos.mongoDB 
-          }, 
-          { 
-            text: 'Express',
-            icon: logos.express 
-          }, 
-          { 
+            icon: logos.mongoDB
+          },
+          {
             text: 'Node.js',
             icon: logos.node
-          }, 
-          { 
+          },
+          {
+            text: 'Express',
+            icon: logos.express
+          },
+          {
+            text: 'AWS',
+            icon: logos.aws
+          },
+          {
             text: 'Heroku',
             icon: logos.heroku
-          },
+          }
         ]
       },
       { 
@@ -136,93 +144,130 @@ const ProjectsAPI = {
         ]
       },
       { 
-        id: 1, 
-        link: "http://unitedstatestaxservices.us/", 
-        name: "United States Tax Services", 
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/usts.png', 
-        description: 'United States Tax Services (USTS) is a company located in Buffalo Grove, IL. The company provide a broad range of services such as: accounting, public notary, tax calculation, incorporation etc.', 
-        role: 'My role was to completely redesign and built brand new website with brand new branding. USTS has onboard marketing eecutive who helped me during the proccess. I choose WordPress, because the company wants to drive organic traffic from social media by posting blog posts. Another reason was that WordPress is easy to maintain and edit.',
+        id: 15, 
+        link: "https://simple-mean-auth.herokuapp.com/", 
+        name: "Simple MEAN Auth", 
+        freeHosting: true,
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/simple-mean-auth.png', 
+        description: 'MEAN (MongoDB, Express, Node.js, Angular) stack Authentication and Authorization app, more like a boilerplate. Full featured authentication using JSON Web Tokens. Angular to generate all components. Node.js and Express on the backend with Mongoose library and MongoDB.', 
+        role: 'Create an application for faster development speed in the future projects, and for fun of course. ',
         type: 'Full Stack',
         technologiesUsed: [
           { 
-            text: 'WordPress',
-            icon: logos.wordpress 
+            text: 'Angular 6',
+            icon: logos.angular 
           }, 
           { 
-            text: 'HTML5',
-            icon: logos.html 
+            text: 'MongoDB',
+            icon: logos.mongoDB 
           }, 
           { 
-            text: 'CSS3',
-            icon: logos.css
+            text: 'Express',
+            icon: logos.express 
           }, 
           { 
-            text: 'JavaScript',
-            icon: logos.js
+            text: 'Node.js',
+            icon: logos.node
           }, 
           { 
-            text: 'PHP',
-            icon: logos.php 
-          }
+            text: 'Heroku',
+            icon: logos.heroku
+          },
         ]
       },
-      { 
-        id: 2, 
-        link: "https://spoofingwilly.com/", 
-        name: "Spoofing Willy Street",
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/spoofingwilly-head.png', 
-        description: 'Spoofing Willy Street is marketing consultancy company in Madison, WI. Spoofing Willy provide proffesional services like social media strategy, website development, photography, content creation etc.',
-        role: 'My role, as Director of Technology was to redesign and improve performance of existing website. Create interactive wireframes, prototypes, develop web and mobile applications, develop websites, technical support for clients. Innovation of internal and external infrastracture of the company. Automation of tasks. For this website I choose WordPress, because marketing director has experience with it, and the website is news/blog platform.',
+      {
+        id: 1,
+        link: "http://unitedstatestaxservices.us/",
+        name: "United States Tax Services",
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/usts.png',
+        description: 'United States Tax Services (USTS) is a company located in Buffalo Grove, IL. The company provides a broad range of services such as accounting, public notary, tax calculation, incorporation etc.',
+        role: 'My role was to completely redesign and built a brand new website with brand new branding. USTS has onboard marketing executive who helped me during the process. I choose WordPress, because the company wants to drive organic traffic from social media by posting blog posts. Another reason was that WordPress is easy to maintain and edit for the marketing team.',
+        result: 'With my hard work, able to adapt and work with the ongoing team together we were able to automate some of the client\'s processes related to customer support, content management and billing through the website. New blog style generated thousands of views every month with new paying customers. After all Return On Investment and Branding is what matters.',
+        resource: 'https://unitedstatestaxservices.us/',
         type: 'Full Stack',
         technologiesUsed: [
-          { 
+          {
             text: 'WordPress',
             icon: logos.wordpress
-          }, 
-          { 
+          },
+          {
             text: 'HTML5',
             icon: logos.html
-          }, 
-          { 
+          },
+          {
             text: 'CSS3',
             icon: logos.css
-          }, 
-          { 
+          },
+          {
             text: 'JavaScript',
-            icon: logos.js 
-          }, 
-          { 
+            icon: logos.js
+          },
+          {
             text: 'PHP',
             icon: logos.php
           }
         ]
       },
-      { 
-        id: 3, 
-        link: "http://www.perkinsproperties.us/", 
-        name: "Perkins Properties", 
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/pekrins-head.png', 
-        description: 'Perkins Properties is a commercial real estate investment agency with offices in MidWest.',
-        role: 'Develop WordPress website based on provided design (PSD files) and prototype.',
-        type: 'Front End',
+      {
+        id: 2,
+        link: "https://spoofingwilly.com/",
+        name: "Spoofing Willy Street",
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/spoofingwilly-head.png',
+        description: 'Spoofing Willy Street is a digital and traditional marketing consultancy company in Madison, WI. Spoofing Willy provides professional services like social media strategy, traditional marketing, postcards, graphic design, website development, photography, content creation and other.',
+        role: 'My role was to completely redesign, re-engineer and improve the performance of the existing website. Create interactive User Experience, modern User Interface. We also helped with the innovation of internal and external software infrastructure and tools of the company. For this project, I choose WordPress, because the current team had experience with it.',
+        resource: 'https://spoofingwilly.com/',
+        type: 'Full Stack',
         technologiesUsed: [
-          { 
+          {
             text: 'WordPress',
             icon: logos.wordpress
-          }, 
-          { 
+          },
+          {
             text: 'HTML5',
             icon: logos.html
-          }, 
-          { 
+          },
+          {
             text: 'CSS3',
             icon: logos.css
-          }, 
-          { 
+          },
+          {
             text: 'JavaScript',
             icon: logos.js
-          }, 
-          { 
+          },
+          {
+            text: 'PHP',
+            icon: logos.php
+          }
+        ]
+      },
+      {
+        id: 3,
+        link: "http://www.perkinsproperties.us/",
+        name: "Perkins Properties",
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/pekrins-head.png',
+        description: 'Perkins Properties acquires, develops, manages, and operates a unique retail, office, and restaurant properties in the Midwest. They own retail, office, commercial, restaurant and entertainment properties. Easily search for a location near you.',
+        role: 'My role was to re-engineer and redesign an existing WordPress website with very custommized User Interface components. I worked with client\s marketing team to establish an online presence they never had before.',
+        result: 'I achieved the goal we set before with a big Return On Investment and significantly better online presence.',
+        resource: 'http://www.perkinsproperties.us/company/',
+        type: 'Front End',
+        technologiesUsed: [
+          {
+            text: 'WordPress',
+            icon: logos.wordpress
+          },
+          {
+            text: 'HTML5',
+            icon: logos.html
+          },
+          {
+            text: 'CSS3',
+            icon: logos.css
+          },
+          {
+            text: 'JavaScript',
+            icon: logos.js
+          },
+          {
             text: 'PHP',
             icon: logos.php
           }
@@ -255,63 +300,67 @@ const ProjectsAPI = {
           }
         ]
       },
-      { 
-        id: 5, 
-        link: "http://badgerblinds.com/", 
-        name: "Badger Blinds", 
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/badgerblinds-head.png', 
-        description: 'Home Improvement company in Madison area. Badger Blinds and Shades install and sell blinds and shades.', 
-        role: 'My role at this project was to build a brouchure, information based website from scratch. I have choose WordPress, because client wanted to post blogs and have a posibility to update website without third party.', 
+      {
+        id: 5,
+        link: "http://badgerblinds.com/",
+        name: "Badger Blinds",
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/badgerblinds-head.png',
+        description: 'Badger Blinds and Shades are family owned and operated home improvement company in the Madison area. They come from three generations in the window covering business and over 25 years of personal experience.',
+        role: 'Our role was to achieve excellent online presence through the website for small business, brochure-like website. ',
+        result: 'Small business started to grow and generate new potential customers every month.',
+        resource: 'http://badgerblinds.com/',
         type: 'Front End',
         technologiesUsed: [
-          { 
+          {
             text: 'WordPress',
             icon: logos.wordpress
-          }, 
-          { 
+          },
+          {
             text: 'HTML5',
             icon: logos.html
-          }, 
-          { 
+          },
+          {
             text: 'CSS3',
             icon: logos.css
-          }, 
-          { 
+          },
+          {
             text: 'JavaScript',
             icon: logos.js
-          }, 
-          { 
+          },
+          {
             text: 'PHP',
             icon: logos.php
           }
         ]
       },
-      { 
-        id: 6, 
-        link: "https://kunzeanalytics.com/", 
-        name: "Kunze Analytics  ", 
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/kunze-head.png', 
-        description: 'Kunze Analytics is HR company what uses AI to build models for big corporations.',
-        role: 'Build B2B website with Blog integration.',
+      {
+        id: 6,
+        link: "https://kunzeanalytics.com/",
+        name: "Kunze Analytics  ",
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/kunze-head.png',
+        description: 'Kunze Analytics Core Competencies auditing and improving the Assessment Industry. Some of the services they provide are: Optimizing assessment success patterns through Machine Learning, Validating Models with Client Performance and Retention Metrics, Supporting people decisions and their development with data, Focusing on people’s full potential and engagement at work',
+        role: 'Our role was to design and engineer brand new website for the Brand, to attract Bussiness to Bussiness leads, potential partners and generate organic traffic using a Blog post.',
+        result: 'Of our hard work with Kunze Analytics, we achieved the milestones we set at the beginning of our journey by multiplying client\'s Return on Investment, integrated blog platform with many excellent resources and executive summaries.',
+        resource: 'https://www.kunzeanalytics.com/how-it-works/',
         type: 'Full Stack',
         technologiesUsed: [
-          { 
+          {
             text: 'WordPress',
             icon: logos.wordpress
-          }, 
-          { 
+          },
+          {
             text: 'HTML5',
             icon: logos.html
-          }, 
-          { 
+          },
+          {
             text: 'CSS3',
             icon: logos.css
-          }, 
-          { 
+          },
+          {
             text: 'JavaScript',
             icon: logos.js
-          }, 
-          { 
+          },
+          {
             text: 'PHP',
             icon: logos.php
           }
@@ -319,35 +368,6 @@ const ProjectsAPI = {
       },
       { 
         id: 7, 
-        link: "https://deliandigital.com/", 
-        name: "Delian Digital", 
-        type: 'Full Stack',
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/deliandigital-head.png', 
-        technologiesUsed: [
-          { 
-            text: 'WordPress',
-            icon: logos.wordpress
-          }, 
-          { 
-            text: 'HTML5',
-            icon: logos.html
-          }, 
-          { 
-            text: 'CSS3',
-            icon: logos.css
-          }, 
-          { 
-            text: 'JavaScript',
-            icon: logos.js
-          }, 
-          { 
-            text: 'PHP',
-            icon: logos.php
-          }
-        ]
-      },
-      { 
-        id: 8, 
         link: "http://www.klaritos.com/", 
         name: "Klaritos Inc", 
         description: 'KLĀRITOS is a novel managed-care company specializing in precision medicine.',
