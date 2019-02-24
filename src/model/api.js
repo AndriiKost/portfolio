@@ -57,14 +57,14 @@ const ProjectsAPI = {
       },
       {
         id: 12,
-        link: "http://deliandigital.com",
+        link: "https://www.deliandigital.com/",
         name: "Delian Digital",
         image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/deliandigital-head.jpg',
         freeHosting: false,
         description: 'Delian Digital is the digital product design & development company and your guide on the digital transformation journey.',
         role: 'My role was to build a modern Single Page Application using a modern web framework.',
         result: 'The SPA generated many potential customers, who were impressed with some of the features and wanted to have similar in their projects.',
-        resource: 'https://deliandigital.herokuapp.com/journey',
+        resource: 'https://www.deliandigital.com//journey',
         type: 'Full Stack',
         technologiesUsed: [
           {
