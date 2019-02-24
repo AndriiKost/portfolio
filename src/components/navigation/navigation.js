@@ -3,31 +3,49 @@ import { Link } from 'react-router-dom'
 
 import './navigation.css';
 
-// const navigation = () => (
-//     <nav>
-//         <div className="left-menu">
-//             <Button component={Link} to="/">ANDRII KOST</Button>
-//         </div>
-//         <div className="right-menu">
-//             <Button component={Link} to="/about">About</Button>
-//             <Button component={Link} to="/projects">Projects</Button>
-//         </div>
-//     </nav>
-// )
+ class Navigation extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            toggleButton: false
+        }
+        this.handleResumeButton.bind(this)
+        this.resetResumeButton.bind(this)
+    }
 
-const navigation = () => (
-    <nav className="clearfix">
-        <div className="left">
-            <Link className="nav-button"  to={'/'}>ANDRII KOST</Link>
-        </div>
-        <div className="right">
-            <ul>
-                <li><Link className="nav-button" to={'/projects'}>PROJECTS</Link></li>
-                {/* <li><Link className="nav-button" to={'/contact'}>CONTACT</Link></li> */}
-                <li><a className="nav-button" href="https://drive.google.com/file/d/1yfooVKu7sldRJEvYmhorf6RaSXoowVX0/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a></li>
-            </ul>
-        </div>
-    </nav>
-)
+    handleResumeButton = () => {
+        this.setState({toggleButton: !this.state.toggleButton})
+    }
 
-export default navigation;
+    resetResumeButton = () => {
+        this.setState({toggleButton: false})
+    }
+
+    render() {
+        const nestedNav = (
+            <div className="nestedNav">
+            <hr/>
+                <ul>
+                    <li><a className="nav-button" href="https://drive.google.com/open?id=11QTdaSvMuwrz-a0iapyFGy3kZ_qltGFs" target="_blank" rel="noopener noreferrer">PDF</a></li>
+                    <li><a className="nav-button" href="https://drive.google.com/open?id=1L0jYGc0vhgLarPi7HsaUT2Hc_EDcgEpX" target="_blank" rel="noopener noreferrer">WORD</a></li>
+                </ul>
+            </div>
+        )
+        return (
+        <nav className="clearfix">
+            <div className="left">
+                <Link className="nav-button" onClick={this.resetResumeButton} to={'/'}>ANDRII KOST</Link>
+            </div>
+            <div className="right">
+                <ul>
+                    <li><Link className="nav-button" to={'/projects'} onClick={this.resetResumeButton}>PROJECTS</Link></li>
+                    <li onClick={this.handleResumeButton}><a className="nav-button">RESUME</a></li>
+                </ul>
+                {this.state.toggleButton ? nestedNav : null}
+            </div>
+        </nav>
+        )
+    }
+}
+
+export default Navigation;
