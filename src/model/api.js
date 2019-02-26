@@ -13,7 +13,8 @@ const logos = {
   css: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/CSS3_logo_and_wordmark.svg.png',
   js: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/Badge_js-strict.svg.png',
   php: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/php_PNG23.png',
-  auth0: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/auth0-logo-png-transparent.png'
+  auth0: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/auth0-logo-png-transparent.png',
+  lambda: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/aws_lambda.png'
 };
 const ProjectsAPI = {
     projects: [
@@ -100,7 +101,7 @@ const ProjectsAPI = {
         description: 'RESTful API using Node.js',
         role: '',
         type: 'Back End',
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/geotagAPI.png', 
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/lambda_request_estimate.png', 
         technologiesUsed: [
           { 
             text: 'JavaScript',
@@ -118,6 +119,79 @@ const ProjectsAPI = {
       },
       { 
         id: 14, 
+        link: "https://github.com/AndriiKost/lambda_request_estimate", 
+        name: "Serverless Estimate Request Handler", 
+        description: 'Serverless function to handle automated estimate request.',
+        role: 'To automate the estimation request as much as possible, while keeping the cost as low as possible.',
+        result: 'Estimation was handled with AWS Lambda, which reduced a cost for the server of the company.',
+        type: 'Back End',
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/node-auth-passport.png', 
+        technologiesUsed: [
+          { 
+            text: 'JavaScript',
+            icon: logos.js
+          }, 
+          { 
+            text: 'Node.js',
+            icon: logos.node
+          },
+          {
+            text: 'Express',
+            icon: logos.express
+          },
+          {
+            text: 'MongoDB',
+            icon: logos.mongoDB
+          },
+          {
+            text: 'Lambda',
+            icon: logos.lambda
+          }
+        ]
+      },
+      { 
+        id: 15, 
+        link: "https://madcitygeotour.herokuapp.com/", 
+        name: "Mad City Geo Tour", 
+        description: 'Interactive map for educational and entertainment purpose for people who are coming in town for conventions and seminars.',
+        role: 'To build a web based application using Angular on front end, for non-profit organization in the Madison area.',
+        result: 'As for now, application in BETA test',
+        type: 'Full Stack',
+        freeHosting: true,
+        image: 'https://s3.amazonaws.com/taggingthemascot/madcity-head.jpg', 
+        technologiesUsed: [
+          { 
+            text: 'JavaScript',
+            icon: logos.js
+          }, 
+          { 
+            text: 'Node.js',
+            icon: logos.node
+          },
+          {
+            text: 'Express',
+            icon: logos.express
+          },
+          {
+            text: 'MongoDB',
+            icon: logos.mongoDB
+          },
+          {
+            text: 'Angular 6',
+            icon: logos.angular
+          },
+          {
+            text: 'Heroku',
+            icon: logos.heroku
+          },
+          {
+            text: 'AWS',
+            icon: logos.aws
+          }
+        ]
+      },
+      { 
+        id: 16, 
         link: "https://github.com/AndriiKost/node-passport-auth/", 
         name: "Node + Passport Auth", 
         description: 'Authentication backend using Node.js, MongoDB, Express and Passport',
@@ -144,7 +218,7 @@ const ProjectsAPI = {
         ]
       },
       { 
-        id: 15, 
+        id: 17, 
         link: "https://simple-mean-auth.herokuapp.com/", 
         name: "Simple MEAN Auth", 
         freeHosting: true,

@@ -9,7 +9,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitterSquare, faGithubSquare, faLinkedinIn, faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Footer from './components/footer/footer';
-import Contact from './components/contact/contact';
+import ScrollToTop from './common/scroll-to-top';
 
 library.add(faTwitterSquare, faGithubSquare, faLinkedinIn, faFacebookSquare, faInstagram, faEnvelope)
 
@@ -17,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <ScrollToTop>
       <Navigation/>
           <Switch>
             <Route exact path='/projects/:id' component={SingleProject}/>
@@ -25,6 +26,7 @@ class App extends Component {
             <Route component={Landing}/>
           </Switch>
       <Footer />
+      </ScrollToTop>
       </div>
     );
   }
