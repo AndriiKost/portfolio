@@ -96,36 +96,13 @@ const ProjectsAPI = {
       },
       { 
         id: 13, 
-        link: "https://github.com/AndriiKost/geotagAPI", 
-        name: "Geotagging API", 
-        description: 'RESTful API using Node.js',
-        role: '',
-        type: 'Back End',
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/lambda_request_estimate.png', 
-        technologiesUsed: [
-          { 
-            text: 'JavaScript',
-            icon: logos.js
-          }, 
-          { 
-            text: 'Node.js',
-            icon: logos.node
-          },
-          {
-            text: 'Express',
-            icon: logos.express
-          }
-        ]
-      },
-      { 
-        id: 14, 
         link: "https://github.com/AndriiKost/lambda_request_estimate", 
         name: "Serverless Estimate Request Handler", 
         description: 'Serverless function to handle automated estimate request.',
         role: 'To automate the estimation request as much as possible, while keeping the cost as low as possible.',
         result: 'Estimation was handled with AWS Lambda, which reduced a cost for the server of the company.',
         type: 'Back End',
-        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/node-auth-passport.png', 
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/lambda_request_estimate.png', 
         technologiesUsed: [
           { 
             text: 'JavaScript',
@@ -150,7 +127,7 @@ const ProjectsAPI = {
         ]
       },
       { 
-        id: 15, 
+        id: 14, 
         link: "https://madcitygeotour.herokuapp.com/", 
         name: "Mad City Geo Tour", 
         description: 'Interactive map for educational and entertainment purpose for people who are coming in town for conventions and seminars.',
@@ -187,6 +164,29 @@ const ProjectsAPI = {
           {
             text: 'AWS',
             icon: logos.aws
+          }
+        ]
+      },
+      { 
+        id: 15, 
+        link: "https://github.com/AndriiKost/geotagAPI", 
+        name: "Geotagging API", 
+        description: 'RESTful API using Node.js',
+        role: '',
+        type: 'Back End',
+        image: 'https://s3.amazonaws.com/project-pictures-andriikost-portfolio/geotagAPI.png', 
+        technologiesUsed: [
+          { 
+            text: 'JavaScript',
+            icon: logos.js
+          }, 
+          { 
+            text: 'Node.js',
+            icon: logos.node
+          },
+          {
+            text: 'Express',
+            icon: logos.express
           }
         ]
       },
