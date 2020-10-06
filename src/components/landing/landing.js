@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Landing = () => (
     <div>
         <div className="header">
-            <img className="portrait-picture" alt="Andrii Kost" src="https://media.licdn.com/dms/image/C5603AQG_GxHAtaBQUg/profile-displayphoto-shrink_200_200/0?e=1553731200&v=beta&t=7H6vzjUQ1YT6lRR0kmMm7eK8YgxAixYO_yeqpWRmRoI" />
+            <img className="portrait-picture" alt="Andrii Kost" src="https://s3.us-east-2.amazonaws.com/andriikost.dev/IMG_2525.jpeg" />
             <h1>Andrii Kost</h1>
             <div className="header-description">
-                <h4>Full Stack Developer and Founder of <a href="https://www.deliandigital.com/" rel="noopener noreferrer" target="_blank">Delian Digital</a>.</h4>
+                <h4>Full Stack Developer.</h4>
                 <h5>Inspired by building technologies.</h5>
             </div>
         </div>
@@ -37,7 +37,7 @@ const Landing = () => (
                         <a href="https://www.instagram.com/andriikost/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'instagram']} /><span>Instagram</span></a></li>
                     <li>
-                        <a href="mailto:andriikost@yahoo.com">
+                        <a href="mailto:hello@andriikost.dev">
                         <FontAwesomeIcon icon="envelope" /><span>Email</span></a></li>
                 </ul>
             </div>
